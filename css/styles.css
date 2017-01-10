@@ -1,0 +1,736 @@
+body {
+    font-family: "Open Sans";
+}
+
+.clear-both {
+    clear: both;
+}
+
+hr.line {
+    border-top: 4px solid #eee;
+    margin: 157px 0 0 0;
+}
+
+#header {
+    height: 90px;
+}
+
+#header #link-logo {
+    margin-top: 25px;
+    display: inline-block;
+}
+
+#header .menu {
+    list-style: none;
+    float: right;
+    text-transform: uppercase;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: -10px;
+    letter-spacing: -0.9px;
+    margin-top: -4px;
+}
+
+#header .menu-init {
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+
+#header .menu li {
+    display: inline-block;
+}
+
+#header .menu li a {
+    margin-top: 38px;
+    color: #2a2a2a;
+    display: block;
+    padding: 0 40px;
+    text-decoration: none;
+}
+
+#header .menu li a:hover {
+    color: #1ab4f0;
+    text-decoration: none;
+}
+
+#header .menu li:last-child a {
+    padding: 0 10px 0 40px;
+}
+
+#slider {
+    background: url(../images/slider.jpg) center 0 no-repeat;
+    height: 873px;
+}
+
+#slider .group-text {
+    text-align: center;
+    padding-top: 216px;
+}
+
+#slider .text-1, #slider .text-2, #slider .show-more {
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: bold;
+}
+
+#slider .text-1, #slider .text-2 {
+    font-size: 59px;
+    line-height: 70px;
+    letter-spacing: 2px;
+}
+
+#slider .text-1 {
+    color: #1ab4f0;
+    letter-spacing: 1.6px;
+    margin-left: -6px;
+}
+
+#slider .text-2 {
+    color: #1ab4f0;
+    letter-spacing: 1.6px;
+    margin-left: 8px;
+}
+
+#slider .text-2, #slider .text-3 {
+    color: white;
+}
+
+#slider .text-3 {
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+
+#slider .show-more {
+    margin-top: 155px;
+    padding: 17px 41px;
+    font-size: 23px;
+}
+
+#about, #portfolio {
+    height: 235px;
+    background: #f4f2f2;
+}
+
+.gray-panel-left .text-1 {
+    letter-spacing: -0.7px;
+    width: 514px;
+    padding-top: 76px;
+    font-size: 20px;
+    line-height: 27px;
+    float: left;
+}
+
+#about .text-2, #portfolio .text-2 {
+    padding-top: 76px;
+    font-size: 57px;
+    float: right;
+    text-transform: uppercase;
+    padding-right: 50px;
+    font-family: Lato;
+}
+
+#about-ps .block {
+    padding-top: 160px;
+    text-align: center;
+    cursor: pointer;
+    height: 559px;
+}
+
+#about-ps .block:hover {
+    background: #f4f2f2;
+}
+
+#about-ps .text-1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: bold;
+    padding: 24px 0;
+}
+
+#about-ps .text-2 {
+    font-size: 16px;
+    padding: 3px 7px;
+    line-height: 24px;
+}
+
+#stock {
+    background: url(../images/slider2.jpg) center 0 no-repeat;
+    height: 359px;
+
+}
+
+#stock .images {
+    text-align: center;
+    word-spacing: 47px;
+    height: 100%;
+    display: table;
+}
+
+#stock .images > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#stock .col {
+    margin: 30px 0;
+}
+
+#services {
+    height: 235px;
+    background: #f4f2f2;
+}
+
+.frame, #contact .frame, #team .frame, #services .frame {
+    margin: 81px -2px 0 3px;
+    background: #e9e7e7;
+    padding: 16px;
+    display: inline-block;
+    float: left;
+}
+
+#contact .text-1, #services .text-1, #team .text-1 {
+    padding-top: 74px;
+    font-size: 57px;
+    float: left;
+    text-transform: uppercase;
+    padding-left: 34px;
+    font-family: Lato;
+}
+
+#team .text-2, #contact .text-2, #services .text-2 {
+    width: 551px;
+    padding-top: 74px;
+    font-size: 19px;
+    line-height: 27px;
+    float: right;
+    text-align: right;
+    letter-spacing: -0.2px;
+}
+
+#six-blocks .col {
+    padding-top: 160px;
+    text-align: center;
+    cursor: pointer;
+    height: 535px;
+}
+
+#six-blocks .col:hover {
+    background: #f4f2f2;
+}
+
+#six-blocks .text-1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: bold;
+    padding: 24px 0;
+}
+
+#six-blocks .text-2 {
+    font-size: 16px;
+    padding: 3px 7px;
+    line-height: 24px;
+}
+
+#numbers-image {
+    background: url(../images/numbers.jpg) center 0 no-repeat;
+    height: 520px;
+}
+
+#numbers-image .col {
+    padding-top: 128px;
+    text-align: center;
+    cursor: pointer;
+    height: 521px;
+}
+
+#numbers-image .text-1 {
+    text-align: center;
+    font-size: 78px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1ab4f0;
+}
+
+#numbers-image .text-2 {
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 4px;
+    color: white;
+}
+
+#numbers-image .text-3 {
+    font-size: 14px;
+    padding: 24px 16px;
+    line-height: 24px;
+    color: white;
+}
+
+#menu-2 {
+    text-align: center;
+}
+
+#menu-2 ul {
+    list-style: none;
+    display: inline-block;
+    margin: 158px 0 30px 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+#menu-2 ul li {
+    float: left;
+    text-transform: uppercase;
+    padding: 8px 25px 11px 25px;
+    letter-spacing: 0.9px;
+    font-size: 18px;
+}
+
+#menu-2 ul li:hover {
+    background: #1ab4f0;
+}
+
+#menu-2 ul li:hover a {
+    color: white;
+}
+
+#menu-2 ul li a {
+    color: #828282;
+    font-weight: bold;
+}
+
+#menu-2 ul li a:hover {
+    text-decoration: none;
+}
+
+#six .back-image {
+    display: inline-block;
+    width: 33.33%;
+    position: relative;
+    float: left;
+}
+
+#six .back-image img {
+    width: 100%;
+}
+
+#six .back-image .hint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/hint.png");
+    display: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#six .back-image .hint .table {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#six .back-image .hint .table .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#six .back-image:hover .hint {
+    display: block;
+}
+
+#six .blue-back {
+    padding: 12px;
+    display: inline-block;
+    color: white;
+    border: 3px solid white;
+    margin: 9px 8px 0 13px;
+}
+
+#six .blue-back:hover {
+    background: #1ab4f0;
+    border: 3px solid #1ab4f0;
+}
+
+#six .text-1 {
+    margin-top: 25px;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+}
+
+#six .text-2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+#contact {
+    height: 236px;
+    background: #f4f2f2;
+    border-bottom: 3px solid #e2e2e2;
+}
+
+#employees .gray-back {
+    padding-top: 154px;
+    margin: 0 6px;
+    text-align: center;
+    cursor: pointer;
+    height: 603px;
+}
+
+#employees .gray-frame {
+    color: #f4f2f2;
+    border: 3px solid #f4f2f2;
+    display: inline-block;
+    margin: 2px 0 0 0;
+}
+
+#employees .text-1 {
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    margin: 10px 0 0 8px;
+}
+
+#employees .text-2 {
+    font-size: 17px;
+    color: #1ab4f0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: -3px 0 11px 10px;
+}
+
+#employees .gray-back:hover {
+    background: #f4f2f2;
+}
+
+#employees .gray-back .social-icons {
+    color: #2a2a2a;
+    padding: 27px;
+}
+
+#employees .gray-back .social-icons i {
+    margin: 0 11px
+}
+
+#employees .gray-back .social-icons i:hover {
+    color: #1ab4f0;
+}
+
+#percent {
+    padding-top: 145px;
+}
+
+#percent .col-n-1 {
+    margin-bottom: 40px;
+}
+
+#percent .percent-lines {
+    border-top: 38px solid #e9e9e9;
+}
+
+#percent .frame-percent-lines {
+    border: 3px solid #f4f2f2;
+    height: 42px;
+    margin: 9px 0 18px 0;
+    width: 347px;
+}
+
+#percent .text-1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0 0 14px;
+    letter-spacing: 1.4px;
+    word-spacing: 8px;
+}
+
+#percent .text-2 {
+    text-align: right;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: "Open sans";
+    margin: 3px -3px 0 0;
+}
+
+#percent .text-3 {
+    margin: 24px 0 40px 43px;
+    text-align: right;
+    font-size: 17.1px;
+    line-height: 1.45;
+    font-weight: bold;
+}
+
+#percent .percent-lines-blue {
+    background: #1ab4f0;
+    margin: -38px 0 0 0;
+    height: 38px;
+}
+
+#pricing {
+    height: 235px;
+    background: #f4f2f2;
+    margin-top: 157px;
+}
+
+#pricing-table {
+    margin-bottom: 150px;
+}
+
+#pricing-table .col-inner {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 158px;
+    border: 4px solid #f4f2f2;
+}
+
+#pricing-table .col-inner i {
+    margin: 35px 0 0 3px;
+}
+
+#pricing-table .gray {
+    background: #f4f2f2;
+    height: 186px;
+}
+
+#pricing-table .text-1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 14px 0 0 2px;
+    letter-spacing: 1px;
+    color: #828282;
+}
+
+#pricing-table .text-2 {
+    text-transform: lowercase;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0 0 0 2px;
+    letter-spacing: -0.7px;
+}
+
+#pricing-table hr {
+    margin: 41px 0 20px 0;
+    border: 0;
+    border-top: 3px solid #eee;
+}
+
+#pricing-table .text-3 {
+    color: black;
+    font-size: 18px;
+    margin: 33px 0 0 3px;
+    letter-spacing: -0.4px;
+    line-height: 1.7;
+}
+
+#pricing-table .text-4 {
+    color: #2a2a2a;
+    font-size: 29px;
+    margin: 98px 0 0 5px;
+    word-spacing: 91px;
+}
+
+#pricing-table .text-5 {
+    margin: -119px 0 26px -33px;
+    font-size: 96px;
+    letter-spacing: -6px;
+    color: #1ab4f0;
+    font-weight: bold;
+}
+
+#carousel .slider-back {
+    height: 768px;
+}
+
+.unslider {
+    background: url(../images/slider-back.jpg) top center no-repeat;
+}
+
+#carousel .slider-back .text-17 {
+    text-align: center;
+    font-style: italic;
+}
+
+.unslider-nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    margin: 0 0 155px 0;
+}
+
+.unslider-nav ol {
+    text-align: center;
+}
+
+.unslider-nav ol li {
+    display: inline-block;
+    text-indent: -100000px;
+    border: 1px solid gray;
+    width: 17px;
+    height: 16px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.unslider {
+    position: relative;
+}
+
+.unslider-nav ol li.unslider-active {
+    border-color: #1ab4f0;
+    background: #1ab4f0
+}
+
+.unslider-arrow {
+    display: none;
+}
+
+.human {
+    margin: 0 170px;
+    margin-top: 156px;
+    display: inline-block;
+}
+
+#carousel .text-1 {
+    font-size: 19px;
+    letter-spacing: -0.7px;
+    margin: 31px 0 0 0;
+    width: 506px;
+    line-height: 1.4;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#carousel .text-2 {
+    margin: 25px 0 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+}
+
+#carousel .text-3 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #1ab4f0;
+    display: inline-block;
+}
+
+.footer .footer-background {
+    background: url(../images/footer.jpg) center 0 no-repeat;
+    height: 291px;
+    text-align: center
+}
+
+.footer .square {
+    font-size: 11px;
+    padding: 10px 0;
+    display: inline-block;
+    color: white;
+    border: 3px solid white;
+    margin: 87px 22px 0 22px;
+    width: 51px;
+    text-align: center;
+}
+
+.footer .text-footer {
+    color: white;
+    margin: 84px 0 0 0;
+    font-size: 17px;
+}
+
+.footer .i:hover {
+    cursor: pointer;
+    color: #1ab4f0;
+}
+
+#map {
+    padding-bottom: 1px;
+    background: #f4f2f2;
+}
+
+#map .map-image {
+    width: 50%;
+    float: left
+}
+
+#map .form {
+    float: left;
+    padding: 120px 0 50px 125px;
+    width: 524px;
+    text-align: center;
+    margin-right: 76px;
+}
+
+#map .form button {
+    text-transform: uppercase;
+    margin-top: 6px;
+    padding: 11px 54px;
+    font-size: 19px;
+}
+
+#map .form .form-control {
+    border: 2px solid #ccc;
+    border-radius: 0;
+    padding: 24px 16px;
+}
+
+#map .form textarea.form-control {
+    padding-top: 14px;
+    height: 110px;
+}
+
+#map .form .form-group {
+    margin-bottom: 23px;
+}
+
+#map .text-1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0 0 22px 0;
+}
+
+#map .map-image img {
+    width: 100%;
+}
+
+.gray-panel {
+    height: 235px;
+    background: #f4f2f2;
+}
+
+.gray-panel-left .text-2 {
+    padding-top: 76px;
+    font-size: 57px;
+    float: right;
+    text-transform: uppercase;
+    padding-right: 50px;
+    font-family: Lato;
+}
+
+.gray-panel-left .frame {
+    margin: 84px -2px 0 -15px;
+    background: #e9e7e7;
+    padding: 17px;
+    display: inline-block;
+    float: right;
+    width: 71px;
+    text-align: center;
+}

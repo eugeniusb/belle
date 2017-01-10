@@ -1,0 +1,83 @@
+@media screen and (max-width: 1200px) {
+    .frame-procent-lines {
+        float: right;
+    }
+
+    .col-hide-md {
+        display: none;
+    }
+
+    #percent .col-n-1 .frame-percent-lines {
+        float: right;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .col-hide-lg {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1271px) {
+    #map .map-image {
+        width: 100%;
+        float: none;
+    }
+
+    #map .form {
+        padding-bottom: 60px;
+        float: none;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .gray-panel.gray-panel-left .text-2 {
+        display: none;
+    }
+
+    .gray-panel .text-1 {
+        display: none;
+    }
+
+    .gray-panel.gray-panel-left .text-1 {
+        display: block;
+    }
+
+    .col-hide-sm {
+        display: none;
+    }
+
+    #header .menu {
+        display: none;
+    }
+
+    #header i {
+        margin-top: 30px;
+    }
+
+    #header .menu-init .menu {
+        position: absolute;
+        top: 63px;
+        right: 37px;
+        background: white;
+        padding: 0;
+        text-align: center;
+        box-shadow: 0 0 3px gray;
+    }
+
+    #header .menu-init .menu li {
+        padding: 15px 50px;
+    }
+
+    #header .menu-init .menu li a {
+        padding: 0;
+        margin: 0;
+    }
+
+    #header .menu-init:hover .menu {
+        display: block;
+    }
+}
